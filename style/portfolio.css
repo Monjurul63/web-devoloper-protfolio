@@ -56,14 +56,32 @@ nav a {
 }
 .header{
     background-color: rgb(221, 206, 188);
+    background-image: url('/img/download\ \(1\).jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px;
 
 }
 .bannar{
     padding:30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.bannar-content{
+    max: width 500px; ;
 }
 .pic{
-    width: 870px;
+    width: 700px;
+
+}
+.bannar-greeting{
+    font-size: 65px;
+   color: rgb(28, 12, 81);
+   font-weight: 700px ;
+   margin-top:5px ;
+   margin-bottom: 20px;
+  
+
 
 }
